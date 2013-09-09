@@ -154,6 +154,10 @@ public class CreatureSpawnEvent extends EntityEvent implements Cancellable {
         /**
          * When an entity is missing a SpawnReason
          */
-        DEFAULT
+        DEFAULT,
+        /**
+         * When an entity is converted
+         */
+        CONVERT
     }
 }
